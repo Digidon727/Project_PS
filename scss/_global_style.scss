@@ -1,0 +1,68 @@
+// Цвета сайта (кнопки, формы, задний фон и .т.д)
+$main-bg-color: #354152;
+// $body-bg: #5b5e63; // ВРЕМЕННАЯ ПЕРЕМЕННАЯ
+
+//Цвет текста и полей(input)
+$first-text: #7e8ba3;
+$white-color-text: #fff;
+
+//Размер текста
+$font-size_1: 16px;
+$font-size_2: 24px;
+
+$font-family_1: Helvetica Neue;
+$base-line-height: 1.5;
+
+// Размеры сайта
+
+.container {
+  max-width: 1970px;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+
+// Кнопки на сайте стили
+.btn {
+  display: inline-block;
+  padding: 8px 50px;
+  border-radius: 15px;
+  background: linear-gradient(160deg, #8ee4b9 0%, #185547 100%);
+  width: 100%;
+  transition: all 0.3s;
+  color: $white-color-text;
+}
+
+.btn:hover {
+  background: linear-gradient(160deg, #a3eece 0%, #30a87e 100%);
+}
+
+//Поля ввода данных
+.input_text {
+  border: 1px solid $first-text;
+  border-radius: 0px;
+  padding: 10px 30px;
+  margin-bottom: 20px;
+  width: 100%;
+  text-align: center;
+  color: $white-color-text;
+  &::placeholder {
+    color: $white-color-text;
+  }
+}
+
+//линя в шапки
+
+.line_bk {
+  padding: 0;
+  height: 3px;
+  border: none;
+  background: linear-gradient(160deg, #8ee4b9 0%, #185547 100%);
+}
+
+//лого
+
+.header__logo {
+  width: 100%;
+  width: 72px;
+  height: 72px;
+}

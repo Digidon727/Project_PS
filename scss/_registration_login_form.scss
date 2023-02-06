@@ -1,0 +1,83 @@
+.body-login {
+  background: $main-bg-color;
+  position: relative;
+}
+
+.section {
+  // .section__login
+
+  &__login {
+    display: flex;
+    margin-top: 150px;
+    background: $main-bg-color;
+  }
+}
+
+.form {
+  text-align: center;
+  padding: 50px 30px;
+  background: $main-bg-color;
+
+  max-width: 100%;
+  max-height: 100%;
+  width: 400px;
+  box-shadow: 0 0 250px #000;
+}
+.form {
+  // .form__logo
+
+  &__logo {
+    margin-bottom: 30px;
+
+    .logo {
+      margin: 0 auto;
+      width: 100%;
+      width: 72px;
+      height: 72px;
+    }
+  }
+
+  &__title-h2 {
+    margin: 20px 0;
+    color: $first-text;
+    font-size: 34px;
+    font-family: $font-family_1;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+  &__title-h22 {
+    margin: 20px 0;
+    color: $first-text;
+    font-size: 34px;
+    font-family: $font-family_1;
+    font-weight: 500;
+  }
+
+  &__forms-input {
+  }
+
+  // .form__info
+
+  &__info {
+  }
+
+  // .form__input-login
+
+  &__input-login {
+  }
+
+  // .form__password
+
+  &__password {
+  }
+
+  // .pass
+
+  &__input-pass {
+  }
+
+  // .form__button
+
+  &__button {
+  }
+}

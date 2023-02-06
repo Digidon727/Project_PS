@@ -1,0 +1,27 @@
+.header {
+  background: $main-bg-color;
+  padding: 20px 0;
+  border-bottom: 3px solid linear-gradient(160deg, #8ee4b9 0%, #185547 100%);
+  // .header_nav
+
+  &__nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  // .header_nav-list
+
+  &__nav-list {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+  }
+
+  // .header_nav-item
+
+  &__nav-item a {
+    font-size: $font-size_1;
+    color: #fff;
+  }
+}
