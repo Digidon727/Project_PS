@@ -7,13 +7,13 @@
   // .section__login
 
   &__login {
-    display: flex;
-    margin-top: 150px;
+    margin-top: 50px;
     background: $main-bg-color;
   }
 }
 
 .form {
+  margin: 0 auto;
   text-align: center;
   padding: 50px 30px;
   background: $main-bg-color;

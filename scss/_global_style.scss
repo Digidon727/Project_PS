@@ -66,3 +66,37 @@ $base-line-height: 1.5;
   width: 72px;
   height: 72px;
 }
+
+//Окна уведомления
+.alert {
+  text-align: center;
+  max-width: 100%;
+  margin-bottom: 50px;
+}
+.alert-danger {
+  position: relative;
+  color: $white-color-text;
+  text-align: center;
+  font-size: $font-size_2;
+  padding: 10px;
+  margin: 20px auto;
+  max-width: 700px;
+  border-radius: 5px;
+}
+.errors-alert {
+  border: 2px solid #ee0404;
+  background-color: #ee04041f;
+}
+.success-alert {
+  border: 2px solid #8ee4b9;
+  background-color: #30a87e2f;
+}
+
+.btn-close {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  width: 20px;
+  height: 20px;
+  background: url("../img/close.svg");
+}

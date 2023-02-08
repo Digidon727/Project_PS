@@ -163,6 +163,42 @@ legend {
   height: 72px;
 }
 
+.alert {
+  text-align: center;
+  max-width: 100%;
+  margin-bottom: 50px;
+}
+
+.alert-danger {
+  position: relative;
+  color: #fff;
+  text-align: center;
+  font-size: 24px;
+  padding: 10px;
+  margin: 20px auto;
+  max-width: 700px;
+  border-radius: 5px;
+}
+
+.errors-alert {
+  border: 2px solid #ee0404;
+  background-color: rgba(238, 4, 4, 0.1215686275);
+}
+
+.success-alert {
+  border: 2px solid #8ee4b9;
+  background-color: rgba(48, 168, 126, 0.1843137255);
+}
+
+.btn-close {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  width: 20px;
+  height: 20px;
+  background: url("../img/close.svg");
+}
+
 .header {
   background: #354152;
   padding: 20px 0;
@@ -189,12 +225,12 @@ legend {
 }
 
 .section__login {
-  display: flex;
-  margin-top: 150px;
+  margin-top: 50px;
   background: #354152;
 }
 
 .form {
+  margin: 0 auto;
   text-align: center;
   padding: 50px 30px;
   background: #354152;
