@@ -1,5 +1,6 @@
-// Цвета сайта (кнопки, формы, задний фон и .т.д)
+// Цвета сайта (формы, задний фон и .т.д)
 $main-bg-color: #354152;
+$main-bg-color-2: #75d2aa;
 // $body-bg: #5b5e63; // ВРЕМЕННАЯ ПЕРЕМЕННАЯ
 
 //Цвет текста и полей(input)
@@ -25,8 +26,8 @@ $base-line-height: 1.5;
 .btn {
   display: inline-block;
   padding: 8px 50px;
-  border-radius: 15px;
-  background: linear-gradient(160deg, #8ee4b9 0%, #185547 100%);
+  // border-radius: 15px;
+  background: #75d2aa;
   width: 100%;
   transition: all 0.3s;
   color: $white-color-text;
@@ -60,7 +61,6 @@ $base-line-height: 1.5;
 }
 
 //лого
-
 .header__logo {
   width: 100%;
   width: 72px;
@@ -91,7 +91,6 @@ $base-line-height: 1.5;
   border: 2px solid #8ee4b9;
   background-color: #30a87e2f;
 }
-
 .btn-close {
   position: absolute;
   top: 5px;
