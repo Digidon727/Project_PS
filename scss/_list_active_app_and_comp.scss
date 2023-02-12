@@ -31,7 +31,7 @@
   &__active-table-header {
     display: flex;
     align-items: center;
-    background-color: $main-bg-color-2;
+    background-color: #75d2aa;
     padding: 10px 20px;
     margin-bottom: 50px;
   }
@@ -115,27 +115,27 @@
 .form-info-search {
   display: flex;
   max-width: 100%;
-  width: 350px;
-  border: 2px solid #000;
-  padding: 5px;
+  width: 300px;
+  border: 1px solid #000;
+  padding-left: 5px;
+  background-color: rgba(255, 255, 255, 0.3);
   color: $white-color-text;
 }
 .form-search-inp {
   display: flex;
 }
 .search-inp1 {
-  font-size: 18px;
+  font-size: 24px;
   padding-left: 5px;
-  border-bottom: 1px solid $white-color-text;
+  // border-bottom: 1px solid $white-color-text;
   cursor: pointer;
   &::placeholder {
     color: $white-color-text;
   }
 }
 .btn-top {
-  padding: 9px 60px 9px 0;
+  padding: 9px 10px 9px 0;
+  margin-right: 50px;
   background: url("../img/icons-search.svg") no-repeat right;
-  background-size: 20px 20px;
-}
-.btn {
+  background-size: 10px 10px;
 }

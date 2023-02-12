@@ -1,0 +1,97 @@
+// лист регистрации, редактирования, list-z
+
+.form-list-application {
+  &-title {
+    font-size: $font-size_3;
+    font-weight: bold;
+    font-family: $font-family_1;
+    color: $first-text;
+    text-align: center;
+    margin-bottom: 25px;
+    // padding: 30px;
+    &_span {
+      color: #75d2aa;
+    }
+  }
+}
+.container-list-application {
+  max-width: 600px;
+  margin: 30px auto;
+  padding: 20px;
+  box-shadow: 0 10px 20px 20px rgba(0, 0, 0, 0.5);
+  // &-flex{
+  //     display: flex;
+  //     flex-wrap: wrap;
+  // }
+  &-br {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 15px;
+    flex-wrap: wrap;
+    text-align: start;
+    color: $first-text;
+  }
+
+  &-text {
+    display: inline;
+    font-size: $font-size_2;
+    font-weight: bold;
+  }
+}
+
+.input_form_list {
+  border: 2px solid #262e3a;
+  width: 250px;
+  padding: 5px 0;
+  text-align: center;
+  &::placeholder {
+    color: $first-text;
+  }
+  &_submit {
+    width: 250px;
+    border-radius: 0;
+    &_end {
+      display: block;
+      text-align: end;
+      margin-right: 15px;
+      &_application {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+      }
+    }
+    &_application {
+      border-radius: 0;
+      width: 150px;
+      text-align: start;
+      padding: 10px 15px;
+    }
+  }
+}
+
+.checkbox_center {
+  // text-align: center;
+  margin: 10px 50px;
+}
+
+.checkbox_text_labal {
+  font-size: $font-size_1;
+  color: $first-text;
+  font-weight: bold;
+  // margin-right: 30px;
+}
+
+.textarea_com {
+  // text-align: start;
+  padding-left: 15px;
+}
+
+.list_application_p {
+  text-align: start;
+  width: 280px;
+  text-align: start;
+  font-size: $font-size_2;
+  &_com {
+    font-size: $font-size_1;
+  }
+}

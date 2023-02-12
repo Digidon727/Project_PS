@@ -1,0 +1,80 @@
+$bacground-color-btn: #75d2aa;
+
+.header {
+  * {
+    color: $white-color-text;
+    font-size: 16px;
+    @media (max-width: 1045px) {
+      font-size: 12px;
+    }
+  }
+
+  border-bottom: 3px solid $bacground-color-btn;
+
+  background-color: $main-bg-color;
+  height: 100px;
+  text-align: center;
+
+  display: flex;
+  align-items: center;
+
+  .container {
+    width: 100%;
+
+    .header-nav {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      .haeder-nav-logo {
+        img {
+          max-width: 64px;
+          width: 100%;
+        }
+      }
+
+      .haeder-nav-list {
+        display: flex;
+        column-gap: 17px;
+
+        .haeder-nav-list-item {
+          background-color: $bacground-color-btn;
+          padding: 12px 8px;
+          text-align: center;
+
+          @media (max-width: 1045px) {
+            padding: 6px 4px;
+          }
+        }
+      }
+
+      .header-nav-account {
+        display: flex;
+        align-items: center;
+        column-gap: 8px;
+
+        .header-nav-account-info ol {
+          display: flex;
+        }
+
+        .header-nav-account-avatar {
+          max-width: 50px;
+
+          @media (max-width: 1045px) {
+            max-width: 40px;
+          }
+        }
+
+        margin-right: 5px;
+      }
+
+      .header-nav-exit {
+        padding: 12px 22px;
+        background-color: $bacground-color-btn;
+      }
+    }
+  }
+}
+
+@media (max-width: 600px) {
+}

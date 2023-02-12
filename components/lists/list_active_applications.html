@@ -7,7 +7,61 @@
     <link rel="stylesheet" href="../../css/style.min.css" />
     <title>Лист активных заявок</title>
   </head>
-  <body>
+  <body class="background-site">
+    <header class="header-main__menu">
+      <div class="container">
+        <div class="header-main__menu-main">
+          <div class="header-main__nav-logo">
+            <img src="../../img/logo1.svg" alt="icon" class="header__logo" />
+          </div>
+
+          <div class="header-main__nav">
+            <nav>
+              <ul class="header-main__list">
+                <li class="header-main__item">
+                  <a href="./list_reg.html" class="header-main__btn btn"
+                    >Регистрация заявки</a
+                  >
+                </li>
+                <li class="header-main__item">
+                  <a
+                    href="./list_active_applications.html"
+                    class="header-main__btn btn"
+                    >Активные заявки</a
+                  >
+                </li>
+                <li class="header-main__item">
+                  <a
+                    href="./list_completed_applications.html"
+                    class="header-main__btn btn"
+                    >Выполненные заявки</a
+                  >
+                </li>
+              </ul>
+            </nav>
+          </div>
+
+          <div class="header-main__info-accounts">
+            <div class="header-main__info-account">
+              <div class="header-main__img-avatar">
+                <img src="../../img/avatar.png" alt="" />
+              </div>
+              <div class="header-main__info-user">
+                <p>Добро пожаловать: Admin</p>
+                <p>Электронная почта: Admin@gmail.com</p>
+              </div>
+            </div>
+
+            <div class="header-main__btn-exit">
+              <a href="?do=exit" class="btn">Вход</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <hr class="line_bk" />
+
     <section class="list__active-app">
       <div class="container">
         <div class="list__active-info-header">
@@ -67,8 +121,12 @@
               </div>
 
               <div class="list__active-buttons">
-                <a href="#" class="list__active-button">Подробнее</a>
-                <a href="#" class="list__active-button">Изменить</a>
+                <a href="./list_z.html" class="list__active-button"
+                  >Подробнее</a
+                >
+                <a href="./list_red.html" class="list__active-button"
+                  >Изменить</a
+                >
               </div>
             </li>
             <li class="list__active-info-applications">

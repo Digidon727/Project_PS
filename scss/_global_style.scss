@@ -1,6 +1,5 @@
-// Цвета сайта (формы, задний фон и .т.д)
+// Цвета сайта (кнопки, формы, задний фон и .т.д)
 $main-bg-color: #354152;
-$main-bg-color-2: #75d2aa;
 // $body-bg: #5b5e63; // ВРЕМЕННАЯ ПЕРЕМЕННАЯ
 
 //Цвет текста и полей(input)
@@ -10,11 +9,13 @@ $white-color-text: #fff;
 //Размер текста
 $font-size_1: 16px;
 $font-size_2: 24px;
+$font-size_3: 40px;
 
 $font-family_1: Helvetica Neue;
 $base-line-height: 1.5;
 
 // Размеры сайта
+$background-site: #354152;
 
 .container {
   max-width: 1970px;
@@ -26,7 +27,6 @@ $base-line-height: 1.5;
 .btn {
   display: inline-block;
   padding: 8px 50px;
-  // border-radius: 15px;
   background: #75d2aa;
   width: 100%;
   transition: all 0.3s;
@@ -61,12 +61,11 @@ $base-line-height: 1.5;
 }
 
 //лого
+
 .header__logo {
-  width: 100%;
-  width: 72px;
+  min-width: 72px;
   height: 72px;
 }
-
 //Окна уведомления
 .alert {
   text-align: center;
@@ -91,6 +90,7 @@ $base-line-height: 1.5;
   border: 2px solid #8ee4b9;
   background-color: #30a87e2f;
 }
+
 .btn-close {
   position: absolute;
   top: 5px;
@@ -98,4 +98,13 @@ $base-line-height: 1.5;
   width: 20px;
   height: 20px;
   background: url("../img/close.svg");
+}
+
+.background-site {
+  background-color: $background-site;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
