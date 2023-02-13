@@ -64,14 +64,14 @@
       border-radius: 0;
       width: 150px;
       text-align: start;
-      padding: 10px 15px;
+      padding: 5px 10px;
     }
   }
 }
 
 .checkbox_center {
   // text-align: center;
-  margin: 10px 50px;
+  margin: 10px 50px 40px 0;
 }
 
 .checkbox_text_labal {
@@ -93,5 +93,45 @@
   font-size: $font-size_2;
   &_com {
     font-size: $font-size_1;
+  }
+}
+
+.input_form_list_submit_end_application {
+  margin-top: 50px;
+  .submit-menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 100%;
+    width: 170px;
+    padding: 3px 5px;
+  }
+  .img-icon {
+    width: 20px;
+    height: 20px;
+  }
+}
+
+.list {
+  // .list__red
+
+  &__red {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 250px;
+    height: 50px;
+    padding: 10px 20px;
+    margin-left: 290px;
+
+    .img-icon {
+      width: 25px;
+    }
+  }
+
+  // .list__red-input
+
+  &__red-input {
+    display: flex;
   }
 }

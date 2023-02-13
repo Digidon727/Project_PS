@@ -113,29 +113,30 @@
 }
 
 .form-info-search {
-  display: flex;
   max-width: 100%;
   width: 300px;
   border: 1px solid #000;
-  padding-left: 5px;
+  padding: 5px 10px;
   background-color: rgba(255, 255, 255, 0.3);
   color: $white-color-text;
 }
 .form-search-inp {
   display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 .search-inp1 {
+  max-width: 150px;
   font-size: 24px;
-  padding-left: 5px;
-  // border-bottom: 1px solid $white-color-text;
+
   cursor: pointer;
   &::placeholder {
     color: $white-color-text;
   }
 }
 .btn-top {
-  padding: 9px 10px 9px 0;
-  margin-right: 50px;
-  background: url("../img/icons-search.svg") no-repeat right;
-  background-size: 10px 10px;
+  width: 20px;
+  height: 20px;
+  background: url("../img/icons-search.svg") no-repeat center right;
+  background-size: 20px 20px;
 }
